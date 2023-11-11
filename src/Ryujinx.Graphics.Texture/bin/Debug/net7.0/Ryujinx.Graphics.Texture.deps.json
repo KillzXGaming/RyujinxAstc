@@ -1,0 +1,90 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Ryujinx.Graphics.Texture/1.0.0": {
+        "dependencies": {
+          "Ryujinx.Common": "1.0.0"
+        },
+        "runtime": {
+          "Ryujinx.Graphics.Texture.dll": {}
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/1.0.0": {
+        "runtime": {
+          "lib/net45/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MsgPack.Cli/0.3.0": {
+        "runtime": {
+          "lib/net40-client/MsgPack.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.0.0"
+          }
+        }
+      },
+      "System.Management/4.0.0": {
+        "runtime": {
+          "lib/System.Management.Instrumentation.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.1055.0"
+          },
+          "lib/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.1055.0"
+          }
+        }
+      },
+      "Ryujinx.Common/1.0.0": {
+        "dependencies": {
+          "Microsoft.IO.RecyclableMemoryStream": "1.0.0",
+          "MsgPack.Cli": "0.3.0",
+          "System.Management": "4.0.0"
+        },
+        "runtime": {
+          "Ryujinx.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ryujinx.Graphics.Texture/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IO.RecyclableMemoryStream/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lWYFMBXktSFXci3N3TWJbsy6Y/TEVz3fBFPku1qKQ/zD6Q7RihtfTpHUkPdW/jelUWsGVQ/x46pxvqLflujXLA==",
+      "path": "microsoft.io.recyclablememorystream/1.0.0",
+      "hashPath": "microsoft.io.recyclablememorystream.1.0.0.nupkg.sha512"
+    },
+    "MsgPack.Cli/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xcSjaxTMMVicpvruZAsxQglFkPiT2Ff7dnu1rRXqZBF0gmdxSBQfC74EInDxFzdEvnc6C3/k07IP4FEd6JGLtg==",
+      "path": "msgpack.cli/0.3.0",
+      "hashPath": "msgpack.cli.0.3.0.nupkg.sha512"
+    },
+    "System.Management/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z9pGTmFvUzEfIgJrD2jPdJIAGh1m86jOEO2k0VlyZQU+S2qG1buwgJhuXO4gJ30uOcrnDOqkZtGhO1LNJ6xbBg==",
+      "path": "system.management/4.0.0",
+      "hashPath": "system.management.4.0.0.nupkg.sha512"
+    },
+    "Ryujinx.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

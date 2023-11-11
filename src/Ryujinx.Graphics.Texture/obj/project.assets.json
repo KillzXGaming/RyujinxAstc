@@ -1,0 +1,247 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.IO.RecyclableMemoryStream/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.IO.RecyclableMemoryStream.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IO.RecyclableMemoryStream.dll": {}
+        }
+      },
+      "MsgPack.Cli/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/MsgPack.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net40-client/MsgPack.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "System.Management/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/System.Management.Instrumentation.dll": {},
+          "lib/System.Management.dll": {}
+        },
+        "runtime": {
+          "lib/System.Management.Instrumentation.dll": {},
+          "lib/System.Management.dll": {}
+        }
+      },
+      "Ryujinx.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.IO.RecyclableMemoryStream": "(, )",
+          "MsgPack.Cli": "(, )",
+          "System.Management": "(, )"
+        },
+        "compile": {
+          "bin/placeholder/Ryujinx.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ryujinx.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.IO.RecyclableMemoryStream/1.0.0": {
+      "sha512": "lWYFMBXktSFXci3N3TWJbsy6Y/TEVz3fBFPku1qKQ/zD6Q7RihtfTpHUkPdW/jelUWsGVQ/x46pxvqLflujXLA==",
+      "type": "package",
+      "path": "microsoft.io.recyclablememorystream/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IO.RecyclableMemoryStream.dll",
+        "microsoft.io.recyclablememorystream.1.0.0.nupkg.sha512",
+        "microsoft.io.recyclablememorystream.nuspec"
+      ]
+    },
+    "MsgPack.Cli/0.3.0": {
+      "sha512": "xcSjaxTMMVicpvruZAsxQglFkPiT2Ff7dnu1rRXqZBF0gmdxSBQfC74EInDxFzdEvnc6C3/k07IP4FEd6JGLtg==",
+      "type": "package",
+      "path": "msgpack.cli/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35-client/MsgPack.XML",
+        "lib/net35-client/MsgPack.dll",
+        "lib/net40-client/MsgPack.XML",
+        "lib/net40-client/MsgPack.dll",
+        "lib/netcore45/MsgPack.Serialization.XML",
+        "lib/netcore45/MsgPack.Serialization.dll",
+        "lib/netcore45/MsgPack.XML",
+        "lib/netcore45/MsgPack.dll",
+        "lib/sl4-windowsphone71/MsgPack.Serialization.dll",
+        "lib/sl4-windowsphone71/MsgPack.Serialization.xml",
+        "lib/sl4-windowsphone71/MsgPack.XML",
+        "lib/sl4-windowsphone71/MsgPack.dll",
+        "lib/sl4/MsgPack.Serialization.XML",
+        "lib/sl4/MsgPack.Serialization.dll",
+        "lib/sl4/MsgPack.XML",
+        "lib/sl4/MsgPack.dll",
+        "lib/sl5/MsgPack.Serialization.XML",
+        "lib/sl5/MsgPack.Serialization.dll",
+        "lib/sl5/MsgPack.XML",
+        "lib/sl5/MsgPack.dll",
+        "msgpack.cli.0.3.0.nupkg.sha512",
+        "msgpack.cli.nuspec"
+      ]
+    },
+    "System.Management/4.0.0": {
+      "sha512": "z9pGTmFvUzEfIgJrD2jPdJIAGh1m86jOEO2k0VlyZQU+S2qG1buwgJhuXO4gJ30uOcrnDOqkZtGhO1LNJ6xbBg==",
+      "type": "package",
+      "path": "system.management/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/System.Management.Instrumentation.dll",
+        "lib/System.Management.dll",
+        "system.management.4.0.0.nupkg.sha512",
+        "system.management.nuspec"
+      ]
+    },
+    "Ryujinx.Common/1.0.0": {
+      "type": "project",
+      "path": "../Ryujinx.Common/Ryujinx.Common.csproj",
+      "msbuildProject": "../Ryujinx.Common/Ryujinx.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Ryujinx.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Nathan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Nathan\\Documents\\GitHub\\KillzXGaming\\RyujinxAstc\\src\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj",
+      "projectName": "Ryujinx.Graphics.Texture",
+      "projectPath": "C:\\Users\\Nathan\\Documents\\GitHub\\KillzXGaming\\RyujinxAstc\\src\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj",
+      "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nathan\\Documents\\GitHub\\KillzXGaming\\RyujinxAstc\\src\\Ryujinx.Graphics.Texture\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Nathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Nathan\\Documents\\GitHub\\KillzXGaming\\RyujinxAstc\\src\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+              "projectPath": "C:\\Users\\Nathan\\Documents\\GitHub\\KillzXGaming\\RyujinxAstc\\src\\Ryujinx.Common\\Ryujinx.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ryujinx.Common does not provide an inclusive lower bound for dependency Microsoft.IO.RecyclableMemoryStream. An approximate best match of Microsoft.IO.RecyclableMemoryStream 1.0.0 was resolved.",
+      "libraryId": "Microsoft.IO.RecyclableMemoryStream",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ryujinx.Common does not provide an inclusive lower bound for dependency MsgPack.Cli. An approximate best match of MsgPack.Cli 0.3.0 was resolved.",
+      "libraryId": "MsgPack.Cli",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ryujinx.Common does not provide an inclusive lower bound for dependency System.Management. An approximate best match of System.Management 4.0.0 was resolved.",
+      "libraryId": "System.Management",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.IO.RecyclableMemoryStream 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.IO.RecyclableMemoryStream",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MsgPack.Cli 0.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MsgPack.Cli",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Management 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Management",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
